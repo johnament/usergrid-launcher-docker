@@ -12,6 +12,6 @@ After it builds, to start the machine simply run
 
 This will expose port 8088 on the VM, 9160 on the VM locally so that you can connect over HTTP and to Cassandra.
 
-After the image is up, you'll need to do the standard setup steps.  [Usergrid Setup Guide](http://usergrid.readthedocs.org/en/latest/deploy-local.html#run-usergrid-database-super-user-setup)
+After the image is up, you'll need to do the standard setup steps.  [Run Usergrid Database & Super User Setup](http://usergrid.readthedocs.org/en/latest/deploy-local.html#run-usergrid-database-super-user-setup).  Username = superuser Password = superuser
 
 After the system is setup, you can access the portal by going to [http://usergrid.incubator.apache.org/v101-portal-demo/index.html?api_url=http://localhost:8088](http://usergrid.incubator.apache.org/v101-portal-demo/index.html?api_url=http://localhost:8088), you should replace `8088` if your port is different and `localhost` if your docker server is running somewhere else (e.g. boot2docker)
