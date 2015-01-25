@@ -8,7 +8,7 @@ This repo is not currently pushed to Dockerhub, but you can build it locally.
 
 After it builds, to start the machine simply run
 
-`docker run usergrid-launcher-1.0.1 -p 8088:8088 -p 9160:9160 -dit`
+`docker run -p 8088:8088 -p 9160:9160 -dit usergrid-launcher-1.0.1t
 
 This will expose port 8088 on the VM, 9160 on the VM locally so that you can connect over HTTP and to Cassandra.
 
